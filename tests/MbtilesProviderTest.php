@@ -4,9 +4,9 @@ namespace TeamZac\LaravelTileserver\Tests;
 
 use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase;
-use TeamZac\LaravelTileserver\LaravelTileserverServiceProvider;
-use TeamZac\LaravelTileserver\Tileserver;
-use TeamZac\LaravelTileserver\Tileset;
+use LaravelTileserver\LaravelTileserverServiceProvider;
+use LaravelTileserver\Tileserver;
+use LaravelTileserver\Tileset;
 
 class MbtilesProviderTest extends TestCase
 {

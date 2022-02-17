@@ -1,8 +1,9 @@
 {
-    "name": "teamzac/laravel-tileserver",
+    "name": "latinosoft/laravel-tileserver",
     "description": "Turn your Laravel app into an XYZ tile server using your own mbtiles resources.",
     "keywords": [
         "teamzac",
+        "latinosoft", 
         "laravel-tileserver"
     ],
     "homepage": "https://github.com/teamzac/laravel-tileserver",
@@ -13,11 +14,16 @@
             "name": "Chad Janicek",
             "email": "chad@zactax.com",
             "role": "Developer"
+        },
+        {
+            "name": "Juan Noriega",
+            "email": "jsnoriegam@hotmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^8.0|^9.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -25,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TeamZac\\LaravelTileserver\\": "src"
+            "LaravelTileserver\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TeamZac\\LaravelTileserver\\Tests\\": "tests"
+            "LaravelTileserver\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TeamZac\\LaravelTileserver\\LaravelTileserverServiceProvider"
+                "LaravelTileserver\\LaravelTileserverServiceProvider"
             ]
         }
     }

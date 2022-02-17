@@ -1,6 +1,6 @@
 <?php
 
-namespace TeamZac\LaravelTileserver;
+namespace LaravelTileserver;
 
 class Tileserver
 {

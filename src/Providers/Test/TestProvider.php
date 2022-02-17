@@ -1,8 +1,8 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Providers\Test;
+namespace LaravelTileserver\Providers\Test;
 
-use TeamZac\LaravelTileserver\Contracts\TileProviderContract;
+use LaravelTileserver\Contracts\TileProviderContract;
 
 class TestProvider implements TileProviderContract
 {

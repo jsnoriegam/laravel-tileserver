@@ -1,12 +1,12 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Providers\Mbtiles;
+namespace LaravelTileserver\Providers\Mbtiles;
 
 use Illuminate\Support\Facades\DB;
-use TeamZac\LaravelTileserver\Contracts\TileProviderContract;
-use TeamZac\LaravelTileserver\Exceptions\TileNotFoundException;
-use TeamZac\LaravelTileserver\Tileserver;
-use TeamZac\LaravelTileserver\TilesetMetadata;
+use LaravelTileserver\Contracts\TileProviderContract;
+use LaravelTileserver\Exceptions\TileNotFoundException;
+use LaravelTileserver\Tileserver;
+use LaravelTileserver\TilesetMetadata;
 
 class MbtilesProvider implements TileProviderContract
 {

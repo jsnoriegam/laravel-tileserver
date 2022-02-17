@@ -1,10 +1,10 @@
 <?php
 
-namespace TeamZac\LaravelTileserver;
+namespace LaravelTileserver;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use TeamZac\LaravelTileserver\Exceptions\MetadataValidationException;
+use LaravelTileserver\Exceptions\MetadataValidationException;
 
 class TilesetMetadata
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Providers\Mbtiles;
+namespace LaravelTileserver\Providers\Mbtiles;
 
 use Illuminate\Support\Str;
-use TeamZac\LaravelTileserver\TilesetMetadata;
+use LaravelTileserver\TilesetMetadata;
 
 class GenerateMetadataFromMbtiles
 {

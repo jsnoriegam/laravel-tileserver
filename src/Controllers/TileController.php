@@ -1,10 +1,10 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Controllers;
+namespace LaravelTileserver\Controllers;
 
 use Illuminate\Http\Request;
-use TeamZac\LaravelTileserver\Exceptions\TileNotFoundException;
-use TeamZac\LaravelTileserver\Tileset;
+use LaravelTileserver\Exceptions\TileNotFoundException;
+use LaravelTileserver\Tileset;
 
 class TileController
 {

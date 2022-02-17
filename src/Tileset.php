@@ -1,9 +1,9 @@
 <?php
 
-namespace TeamZac\LaravelTileserver;
+namespace LaravelTileserver;
 
-use TeamZac\LaravelTileserver\Providers\Mbtiles\MbtilesProvider;
-use TeamZac\LaravelTileserver\Providers\Test\TestProvider;
+use LaravelTileserver\Providers\Mbtiles\MbtilesProvider;
+use LaravelTileserver\Providers\Test\TestProvider;
 
 class Tileset
 {

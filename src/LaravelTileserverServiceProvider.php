@@ -1,12 +1,12 @@
 <?php
 
-namespace TeamZac\LaravelTileserver;
+namespace LaravelTileserver;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use TeamZac\LaravelTileserver\Controllers\MetadataController;
-use TeamZac\LaravelTileserver\Controllers\TileController;
-use TeamZac\LaravelTileserver\Controllers\TilesetsController;
+use LaravelTileserver\Controllers\MetadataController;
+use LaravelTileserver\Controllers\TileController;
+use LaravelTileserver\Controllers\TilesetsController;
 
 class LaravelTileserverServiceProvider extends ServiceProvider
 {

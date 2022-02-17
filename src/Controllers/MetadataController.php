@@ -1,9 +1,9 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Controllers;
+namespace LaravelTileserver\Controllers;
 
 use Illuminate\Http\Request;
-use TeamZac\LaravelTileserver\Tileset;
+use LaravelTileserver\Tileset;
 
 class MetadataController
 {

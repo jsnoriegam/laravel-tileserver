@@ -1,10 +1,10 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Controllers;
+namespace LaravelTileserver\Controllers;
 
 use Illuminate\Http\Request;
-use TeamZac\LaravelTileserver\Tileserver;
-use TeamZac\LaravelTileserver\Tileset;
+use LaravelTileserver\Tileserver;
+use LaravelTileserver\Tileset;
 
 class TilesetsController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Contracts;
+namespace LaravelTileserver\Contracts;
 
 interface TileProviderContract
 {

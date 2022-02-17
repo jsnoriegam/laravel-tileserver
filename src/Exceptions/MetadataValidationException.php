@@ -1,6 +1,6 @@
 <?php
 
-namespace TeamZac\LaravelTileserver\Exceptions;
+namespace LaravelTileserver\Exceptions;
 
 class MetadataValidationException extends \Exception
 {
